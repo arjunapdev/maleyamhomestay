@@ -1,0 +1,869 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+/* CSS Document */
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: sans-serif;
+}
+
+
+
+
+/**********************************Navigation Starting*****************************************/
+
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 70px;
+	box-sizing: border-box;
+	transition: .5s;
+	z-index: 2;
+}
+nav .brand_name{
+	margin: 0;
+	padding: 15px 0px;
+	float: left;
+	transition: .5s;
+}
+nav .brand_name a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+nav.black{
+	background: rgba(0,0,0,0.9);
+	height: 80px;
+	padding: 0 50px;
+}
+
+nav.black  .brand_name{
+	padding: 17px 0;
+}
+nav.black .brand_name a{
+	color: #FFF;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	display: flex;
+}
+nav ul li{
+	list-style: none;
+	text-align: center;
+	padding: 1px 15px;
+}
+nav ul li a{
+	text-decoration: none;
+	line-height: 80px;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	transition: .5s;
+	width: 100%;
+}
+nav ul li:hover{background: rgba(1,1,1,0.8);}
+nav ul li:hover a:hover{text-decoration: none;}
+nav.black ul li{
+	height: 78px;
+}
+.toggle{
+	width: 100%;
+	padding: 10px 20px;
+	text-align: right;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+
+/**********************************Navigation Ending*****************************************/
+
+/**********************************Home Page Starting*****************************************/
+
+.slider{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	animation: slide 30s infinite;
+	-webkit-animation: slide 30s infinite;
+}
+.content{
+	color: #fff;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.5);
+}
+.principal{
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.principal h1{
+	font-size: 70px;
+	margin-bottom: 20px;
+}
+.principal p{
+	font-size: 20px;
+}
+
+
+
+
+@keyframes slide{
+	0%{background-image: url(../img/background/bg1.jpg);background-attachment: fixed;}
+	20%{background-image: url(../img/background/bg1.jpg);background-attachment: fixed;}
+	20.01%{background-image: url(../img/background/bg2.jpg);background-attachment: fixed;}
+	40%{background-image: url(../img/background/bg2.jpg);background-attachment: fixed;}
+	40.01%{background-image: url(../img/background/bg3.jpg);background-attachment: fixed;}
+	60%{background-image: url(../img/background/bg3.jpg);background-attachment: fixed;}
+	60.01%{background-image: url(../img/background/bg4.jpg);background-attachment: fixed;}
+	80%{background-image: url(../img/background/bg4.jpg);background-attachment: fixed;}
+	80.01%{background-image: url(../img/background/bg5.jpg);background-attachment: fixed;}
+	100%{background-image: url(../img/background/bg5.jpg);background-attachment: fixed;}
+}
+
+@-webkit-keyframes slide{
+	0%{background-image: url(../img/background/bg1.jpg);background-attachment: fixed;}
+	20%{background-image: url(../img/background/bg1.jpg);background-attachment: fixed;}
+	20.01%{background-image: url(../img/background/bg2.jpg);background-attachment: fixed;}
+	40%{background-image: url(../img/background/bg2.jpg);background-attachment: fixed;}
+	40.01%{background-image: url(../img/background/bg3.jpg);background-attachment: fixed;}
+	60%{background-image: url(../img/background/bg3.jpg);background-attachment: fixed;}
+	60.01%{background-image: url(../img/background/bg4.jpg);background-attachment: fixed;}
+	80%{background-image: url(../img/background/bg4.jpg);background-attachment: fixed;}
+	80.01%{background-image: url(../img/background/bg5.jpg);background-attachment: fixed;}
+	100%{background-image: url(../img/background/bg5.jpg);background-attachment: fixed;}
+}
+
+/**********************************Home Page Ending*****************************************/
+
+/**********************************Gallery Starting*****************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************Gallery Ending*****************************************/
+
+
+
+/**********************************Specialities Starting*****************************************/
+
+.sec3{
+	width: 100%;
+	background-repeat: repeat;
+	background-size: cover;
+	background-image: url(../img/bg2.jpg);
+	background-attachment: fixed;
+	
+	padding: 0 ;
+}
+.speciality-container{
+	background: url(../img/pattern.png);
+	opacity: 0.8;
+	padding: 20px 0;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	background-blend-mode: color;
+}
+
+
+.speciality-desc{
+	width: 90%;
+	margin: 0 auto;
+	padding: 3px 0;
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
+.speciality-desc h1{
+	width: 100%;
+	padding: 4px 0 0;
+}
+.speciality-desc p{
+	width: 100%;
+
+}
+
+.terms{font-size: 10px;
+	padding: 0 0 8px;}
+
+.container2{
+	width: 90%;
+	margin:auto;
+	text-align: center;
+}
+.container2 div ul{
+	list-style: none;
+}
+
+.container2 .activity{
+	width: 49%;
+	margin: 10px 0;
+	display: inline-block;
+	color: #fff;
+	background: rgba(0,0,0,.8);
+	border-radius: 15px;
+}
+.container2 .activity ul li{
+	margin: 7px 0;
+	
+}
+.container2 .facility-sp{
+	width: 49%;
+	margin: 10px 0;
+	display: inline-block;
+	color: #fff;
+	background: rgba(0,0,0,.8);
+	border-radius: 15px;
+
+}
+.container2 .facility-sp ul li{
+	margin: 7px 0;
+	
+}
+
+.place-desc{
+	width: 90%;
+	margin: auto;
+	padding: 8px 0 20px;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0,.8);
+	border-color: black;
+}
+
+.place-desc h1{
+	width: 100%;
+	padding: 5px 0 0;
+}
+.place-desc p{
+	text-align: justify;
+	padding: 0 30px 10px;
+}
+
+
+
+/**********************************Specialities Starting*****************************************/
+/**********************************About Us Start*********************************************/
+
+.sec4{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/bg3.jpg);
+	background-attachment: fixed;
+	width: 100%;
+	opacity: .9;
+	padding: 0;
+	color: #FFF;
+}
+
+.about-container{
+	padding: 20px 0 0;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+
+}
+.about-sec{
+	width: 90%;
+	margin: 10px auto;
+	padding: 8px 0 20px;
+	text-align: center;
+	color: #000;
+	background-color: beige;
+	opacity: 0.6;
+	border-radius: 15px;
+}
+.about-container p,.about-container h1{
+		text-align: center;
+}
+.about-container p{
+	padding:0 50px;
+	font-weight:600;
+	text-align: justify;
+}
+.places{
+	
+	padding-bottom: 20px;
+}
+.places ul{
+
+}
+
+.abc-ul{
+	text-align: center;
+	list-style: none;
+	width: 90%;
+	margin: 1px auto;
+	padding: 8px 0 10px;
+	color: #000;
+	background-color: beige;
+	opacity: 0.6;
+	border-radius: 15px;
+}
+
+.places .abc-ul li{padding-left: 0;
+	display: inline-block;
+	width: 31%;
+	color: #fff;
+	font-size: 15px;
+	margin: 3px auto;
+	background-color: rgba(0,0,0,0.9);
+	padding: 10px 0;
+	border-radius: 15px;
+}
+/************************************About Us End**********************************************/
+/*****************************************Contact***********************************************/
+
+
+
+
+.sec5{
+	width: 100%;
+	margin: 0;
+}
+.contact-container{
+	margin: auto 0;
+	padding: 0;
+}
+#map-cont{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	width: 47%;
+	height: 400px;
+	background-color: gray;
+}
+.address-container{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 10px;
+	display: inline-block;
+	width: 47%;
+	height: 400px;
+	font-family: 'Raleway', sans-serif;
+}
+.address-container h2{
+	width: 180px;
+	padding-bottom: 10px;
+	border-bottom:solid 1px;
+	border-bottom-style: ridge;
+}
+.address-container h2:nth-child(1){
+	margin-top: 0;	
+}
+.address-container h2:nth-child(2){
+	margin-top: 10px;
+}
+.address-container p{
+	margin: 5px 5px 5px 0;
+}
+
+.address-container p:nth-child(10){margin-bottom: 3px;}
+.address-container a{
+	padding: 10px 0;
+}
+.address-container a i{
+	margin-top: 3px;
+	font-size: 30px;
+}
+.address-container h2,.address-container p,.address-container a{margin-left: 50px;}
+.ytt{color: red;}
+.fbb{color: #3b5998;}
+.wa-icon { color: #25D366;}
+.igg {color: #C13584;}
+.gmail-icon { color: #D14836; }
+/*****************************************Contact End***********************************************/
+
+footer{
+	padding: 1px 0;
+   	left: 0;
+   	bottom: 0;
+	margin: auto;
+   	width: 100%;
+   	background-color: rgba(0,0,0,.9);
+   	color: white;
+   	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********************************Resposive*****************************************/
+
+/*************************************Media 1085**************************************/
+
+/************************************Media 1085 end*******************************************/
+
+/*********************************MEDIA 961*****************************************/
+@media (max-width:961px){
+	
+	
+	/*************************Navigation ****************************/
+	nav{
+		height: 80px;
+		padding: 0 50px;
+	}	
+	nav .brand_name{
+		font-size: 20px;
+		padding: 28px 0;
+	}
+	nav .brand_name a{
+		font-size: 21px;
+	}
+	nav ul li{
+		padding: 12px 15px;
+	}
+	nav ul li a{
+		line-height: 60px;
+		font-size: 15px;
+	}
+	nav.black{
+		background: rgba(0,0,0,0.8);
+		height: 60px;
+		padding: 0 20px;
+	}
+	nav.black  .brand_name{
+		padding: 17px 0;
+	}
+	nav.black ul li{
+		padding: 0 15px;
+		height: 60px;
+	}
+	.activity h2{font-size: 28px;}
+	.facility-sp h2{font-size: 28px;}
+/*************************Navigation Ending***********************/
+/*************************About***********************/
+	
+.places .abc-ul li{
+	font-size: 13px;
+}
+
+	
+/*************************About Ending***********************/
+	
+}
+
+/*********************************MEDIA 961 end*****************************************/
+/*********************************MEDIA 768*****************************************/
+
+@media (max-width:855px){
+	
+/*************************Navigation***********************/
+	nav{
+		background: rgba(0,0,0,0.8);
+		height: 70px;
+		padding: 0 40px;
+	}
+	nav .brand_name{
+		font-size: 18px;
+		padding: 25px 0;
+	}
+	nav .brand_name a{
+		font-size: 20px;	
+	}
+	nav ul li{
+		padding: 6px 12px;
+	}
+	nav ul li a{
+		line-height: 60px;
+		font-size: 14px;
+	}
+	nav.black{
+		background: rgba(0,0,0,0.8);
+		height: 60px;
+		padding: 0 20px;
+	}
+	nav.black  .brand_name{
+		padding: 20px 0;
+	}
+	nav.black ul li{
+		padding: 0 15px;
+		height: 60px;
+	}
+
+/*************************Navigation Ending***********************/
+	.activity h2{font-size: 25px;}
+	.facility-sp h2{font-size: 25px;}
+/****************About*************/
+	
+	.places .abc-ul li{
+	font-size: 12px;
+}
+/**************About End*************/
+	
+	
+}
+@media (max-width:768px){
+	/*************************Navigation ***********************/
+	.toggle{
+		display: block;
+		padding: 8px 0;
+	}
+	nav{
+		background: rgba(0,0,0,0.8);
+		height: 60px;
+		padding: 0 30px;
+		width: 100%;
+	}
+	nav .brand_name{
+		padding: 19px 0;
+	}
+	nav .brand_name a{
+		color: #FFF;
+	}
+
+	nav ul{
+		width: 100%;
+		display: none;
+	}
+	nav ul li{
+		display: block;
+		width: 90%;
+		background: rgba(1,0,0,0.8);
+	}
+	nav ul li a{
+		line-height: 50px;
+		font-size: 10;
+	}
+
+	nav ul li:hover{
+		background: rgba(1,0,0,.9);
+	}
+	
+	.active{
+		display: block;
+	}
+
+	nav.black{
+		background: rgba(0,0,0,0.8);
+		height: 50px;
+		padding: 0 20px;
+	}
+	nav.black ul li a{
+		line-height: 40px;
+		font-size: 10;
+	}	
+	nav.black  .brand_name{
+		padding: 15px 0;
+	}
+	nav.black .brand_name a{
+		color: #FFF;
+	}
+	nav.black .toggle{
+		padding: 4px 0;
+	}
+	nav.black ul li{
+
+	}
+	.activity h2{font-size: 30px;}
+	.facility-sp h2{font-size: 30px;}
+	.activity{
+		text-align: left;
+	}
+	.facility-sp{
+		text-align: left;
+	}
+	.terms{font-size: 10px;
+	padding: 0 0 4px;}
+
+/*************************Navigation Ending***********************/
+/*************************Home****************************/
+.principal h1{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+.principal p{
+	font-size: 14px;
+}
+	
+/**************************Home End*********************************/
+/**************************About************************************/
+.places .abc-ul li{
+	display: inline-block;
+	width: 48%;
+	font-size: 15px;
+	background-color: rgba(0,0,0,0.9);
+	padding: 10px 0;
+	border-radius: 15px;
+}
+
+	
+/**************************About End********************************/	
+/****************************Contact********************************/
+	
+	#map-cont{
+	display: block;
+	margin: 10px;
+	width: 95%;
+	height: 300px;
+	background-color: gray;
+}
+.address-container{
+	position:relative;
+	margin: 10px;
+	display: block;
+	width: 95%;
+	height:auto;
+	font-family: 'Raleway', sans-serif;
+}
+	
+	.address-container h2,.address-container p,.address-container a{margin-left: 10px;}
+/***************************Contact end*****************************/
+
+
+}
+
+/*********************************MEDIA 768 End*****************************************/
+/*********************************MEDIA 641*****************************************/
+
+
+@media (max-width:641px){
+	
+	/*************************Navigation***********************/
+	nav{
+		padding: 5px 15px;
+	}
+	.toggle{
+		padding:5px 10px;
+	}
+	nav .brand_name{
+		padding: 15px 10px;
+	}
+	nav.black ul li{
+		padding: 0;
+	}
+	/*************************Navigation Ending***********************/
+	/****************************Home********************************/
+		.principal h1{
+			font-size: 40px;
+			margin-bottom: 12px;
+		}
+		.principal p{
+			font-size: 11px;
+		}
+	/************************Home end***********************************/
+	/***************************About************************/
+	
+	.places .abc-ul li{
+		font-size: 12px;
+	}
+	
+	
+	/***************************About End**************************/
+	
+	footer{font-size: 13px;}
+	
+}
+
+
+/*********************************MEDIA 600 End*****************************************/
+/*********************************MEDIA 481*****************************************/
+
+
+@media (max-width:484px){
+
+	/*************************Navigation***********************/
+	nav{
+		padding: 0 15px;
+	}
+	.toggle{
+		font-size: 30px;
+		padding: 7px 0;
+		margin-bottom: 7px;
+	}
+	nav .brand_name{
+		font-size: 20px;
+		padding: 17px 0;
+
+	}
+	nav ul li{
+		padding: 0;
+	}
+	nav.black ul li{
+		padding: 0;
+	}
+	
+	nav.black{
+		height: 50px;
+		padding: 0 20px;
+	}
+	nav.black ul li a{
+		line-height: 0;
+		font-size: 10;
+	}	
+	nav.black ul li{
+		padding: 15px 0 0 0;
+	}
+	nav.black  .brand_name{
+		padding: 13px 0;
+				margin-bottom: 0;
+	}
+	nav.black .toggle{
+		padding: 4px 0;
+				margin-bottom: 0;
+	}
+	nav ul li a{
+		font-size: 13px;
+	}
+	/*************************Navigation Ending***********************/
+	
+		
+/**************************Facilities*********************************/	
+
+	
+.speciality-desc p{
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+	padding-bottom: 20px;
+	}	
+
+
+.container2 .activity{
+	width: 100%;
+	padding: 8px 0;
+	margin: 10px 0;
+	display: block;
+}
+.container2 .activity ul li{
+	margin: 7px 0;
+}
+.container2 .facility-sp{
+	width: 100%;
+	padding: 8px 0;
+	margin: 10px 0;
+	display: block;
+}
+.container2 .facility-sp ul li{
+	margin: 7px 0;
+
+}
+	
+	
+	
+/**************************Facilities End*********************************/	
+	.about-container p{
+		padding:0 20px;
+		text-align: justify;
+	}	
+	
+	
+	.places .abc-ul li{
+	display: block;
+	width: 95%;
+	font-size: 15px;
+	padding: 10px 0;
+	border-radius: 15px;
+	}
+	
+	
+	
+}
+/*********************************MEDIA 480 End*****************************************/
+/*********************************MEDIA 320*****************************************/
+
+
+@media (max-width:320px){
+
+	/*************************Navigation***********************/
+	nav{
+		padding: 5px 15px;
+	}
+	.toggle{
+		font-size: 25px;
+		padding: 6px 0;
+	}
+	nav .brand_name{
+		display: none;
+		font-size: 15px;
+		padding: 15px 0;
+	}
+	nav .brand_name a{
+		font-size: 18px;
+	}
+	nav.black{
+		height: 50px;
+		padding: 0 20px;
+	}
+	nav.black .brand_name{
+		padding: 16px 0;
+	}
+	nav .toggle{
+		margin-bottom: 7px;
+	}
+	nav.black .toggle{
+		padding: 6px 0;
+		margin-bottom: 5px;
+	}
+	nav ul li{
+		padding: 0 0;
+	}
+	nav.black ul li{
+		padding: 15px 0 0 0;
+	}
+	nav ul li a, nav.black ul li a{
+		font-size: 10px;
+	}
+	nav.black ul li a{line-height: 0px;}
+	/*************************Navigation Ending***********************/
+	
+	/*************************Home****************************/
+.principal h1{
+	font-size: 30px;
+}
+
+	
+/**************************Home End*********************************/
+/**************************Facilities*********************************/	
+		.sec3 div div{
+			width: 95%;
+		}
+/**************************Facilities End*********************************/	
+	
+	
+	.places .abc-ul li{
+		font-size: 12px;
+	}
+	
+	
+	
+}
+
+
+/*********************************MEDIA 320 End*****************************************/
+/*********************************Responsive End*****************************************/
+/*END*/
+
+
