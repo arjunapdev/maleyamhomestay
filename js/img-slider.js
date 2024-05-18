@@ -25,6 +25,9 @@ var modal22 = document.getElementById("myModal22");
 var modal23 = document.getElementById("myModal23");
 var modal24 = document.getElementById("myModal24");
 var modal25 = document.getElementById("myModal25");
+var modal26 = document.getElementById("myModal26");
+var modal27 = document.getElementById("myModal27");
+var modal28 = document.getElementById("myModal28");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 
 var img1= document.getElementById("myImg1");
@@ -52,6 +55,9 @@ var img22= document.getElementById("myImg22");
 var img23= document.getElementById("myImg23");
 var img24= document.getElementById("myImg24");
 var img25= document.getElementById("myImg25");
+var img26= document.getElementById("myImg26");
+var img27= document.getElementById("myImg27");
+var img28= document.getElementById("myImg28");
 var modalImg1 = document.getElementById("img1");
 var modalImg2 = document.getElementById("img2");
 var modalImg3 = document.getElementById("img3");
@@ -77,6 +83,9 @@ var modalImg22 = document.getElementById("img22");
 var modalImg23 = document.getElementById("img23");
 var modalImg24 = document.getElementById("img24");
 var modalImg25 = document.getElementById("img25");
+var modalImg26 = document.getElementById("img26");
+var modalImg27 = document.getElementById("img27");
+var modalImg28 = document.getElementById("img28");
 img1.onclick = function(){
     modal1.style.display = "block";
     modalImg1.src = "img/Gallery/big1.jpg";    
@@ -196,6 +205,18 @@ img25.onclick = function(){
     modal25.style.display = "block";
     modalImg25.src = "img/Gallery/big25.jpg";
 }
+img26.onclick = function(){
+    modal26.style.display = "block";
+    modalImg26.src = "img/Gallery/big26.jpg";
+}
+img27.onclick = function(){
+    modal27.style.display = "block";
+    modalImg27.src = "img/Gallery/big27.jpg";
+}
+img28.onclick = function(){
+    modal28.style.display = "block";
+    modalImg28.src = "img/Gallery/big28.jpg";
+}
 // Get the <cls1> element that closes the modal
 var cls1 = document.getElementsByClassName("close1")[0];
 var cls2 = document.getElementsByClassName("close2")[0];
@@ -222,7 +243,9 @@ var cls22 = document.getElementsByClassName("close22")[0];
 var cls23 = document.getElementsByClassName("close23")[0];
 var cls24 = document.getElementsByClassName("close24")[0];
 var cls25 = document.getElementsByClassName("close25")[0];
-
+var cls26 = document.getElementsByClassName("close26")[0];
+var cls27 = document.getElementsByClassName("close27")[0];
+var cls28 = document.getElementsByClassName("close28")[0];
 // When the user clicks on <cls1> (x), close the modal
 cls1.onclick = function() { 
     modal1.style.display = "none";
@@ -299,6 +322,15 @@ cls24.onclick = function() {
 cls25.onclick = function() { 
     modal25.style.display = "none";
 }
+cls26.onclick = function() { 
+    modal26.style.display = "none";
+}
+cls27.onclick = function() { 
+    modal27.style.display = "none";
+}
+cls28.onclick = function() { 
+    modal28.style.display = "none";
+}
 var previous1 = document.getElementById("lt1");
 var previous2 = document.getElementById("lt2");
 var previous3 = document.getElementById("lt3");
@@ -324,13 +356,13 @@ var previous22 = document.getElementById("lt22");
 var previous23 = document.getElementById("lt23");
 var previous24 = document.getElementById("lt24");
 var previous25 = document.getElementById("lt25");
-
-
-
+var previous26 = document.getElementById("lt26");
+var previous27 = document.getElementById("lt27");
+var previous28 = document.getElementById("lt28");
 previous1.onclick = function(){
 	modal1.style.display = "none";
-	modal25.style.display = "block";
-    modalImg25.src = "img/Gallery/big25.jpg";
+	modal28.style.display = "block";
+    modalImg28.src = "img/Gallery/big28.jpg";
 }
 previous2.onclick = function(){
 	modal2.style.display = "none";
@@ -452,6 +484,21 @@ previous25.onclick = function(){
     modal24.style.display = "block";
     modalImg24.src = "img/Gallery/big24.jpg";
 }
+previous26.onclick = function(){
+    modal26.style.display = "none";
+    modal25.style.display = "block";
+    modalImg25.src = "img/Gallery/big25.jpg";
+}
+previous27.onclick = function(){
+    modal27.style.display = "none";
+    modal26.style.display = "block";
+    modalImg26.src = "img/Gallery/big26.jpg";
+}
+previous28.onclick = function(){
+    modal28.style.display = "none";
+    modal27.style.display = "block";
+    modalImg27.src = "img/Gallery/big27.jpg";
+}
 var next1 = document.getElementById("gt1");
 var next2 = document.getElementById("gt2");
 var next3 = document.getElementById("gt3");
@@ -477,9 +524,9 @@ var next22 = document.getElementById("gt22");
 var next23 = document.getElementById("gt23");
 var next24 = document.getElementById("gt24");
 var next25 = document.getElementById("gt25");
-
-
-
+var next26 = document.getElementById("gt26");
+var next27 = document.getElementById("gt27");
+var next28 = document.getElementById("gt28");
 next1.onclick = function(){
 	modal1.style.display = "none";
 	modal2.style.display = "block";
@@ -597,11 +644,26 @@ next23.onclick = function(){
 }
 next24.onclick = function(){
     modal24.style.display = "none";
-    modal5.style.display = "block";
+    modal25.style.display = "block";
     modalImg25.src = "img/Gallery/big25.jpg";
 }
 next25.onclick = function(){
     modal25.style.display = "none";
+    modal26.style.display = "block";
+    modalImg26.src = "img/Gallery/big26.jpg";
+}
+next26.onclick = function(){
+    modal26.style.display = "none";
+    modal27.style.display = "block";
+    modalImg27.src = "img/Gallery/big27.jpg";
+}
+next27.onclick = function(){
+    modal27.style.display = "none";
+    modal28.style.display = "block";
+    modalImg28.src = "img/Gallery/big28.jpg";
+}
+next28.onclick = function(){
+    modal28.style.display = "none";
     modal1.style.display = "block";
     modalImg1.src = "img/Gallery/big1.jpg";
 }

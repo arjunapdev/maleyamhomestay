@@ -33,7 +33,7 @@
 .my-image:hover {opacity: 0.4;}
 
 /* The Modal (background) */
-.modal1,.modal2,.modal3,.modal4,.modal5,.modal6,.modal7,.modal8,.modal9,.modal10,.modal11,.modal12,.modal13,.modal14,.modal15,.modal16,.modal17,.modal18,.modal19,.modal20,.modal21,.modal22,.modal23,.modal24,.modal25 {
+.modal1,.modal2,.modal3,.modal4,.modal5,.modal6,.modal7,.modal8,.modal9,.modal10,.modal11,.modal12,.modal13,.modal14,.modal15,.modal16,.modal17,.modal18,.modal19,.modal20,.modal21,.modal22,.modal23,.modal24,.modal25,.modal26,.modal27,.modal28 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -86,7 +86,7 @@
 }
 
 /* The Close Button */
-.close1,.close2,.close3,.close4,.close5,.close6,.close7,.close8,.close9,.close10,.close11,.close12,.close13,.close14,.close15,.close16,.close17,.close18,.close19,.close20,.close21,.close22,.close23,.close24,.close25 {
+.close1,.close2,.close3,.close4,.close5,.close6,.close7,.close8,.close9,.close10,.close11,.close12,.close13,.close14,.close15,.close16,.close17,.close18,.close19,.close20,.close21,.close22,.close23,.close24,.close25.close26,.close27,.close28 {
     position: absolute;
     top: 80px;
     right: 35px;
@@ -96,7 +96,7 @@
     transition: 0.3s;
     cursor: pointer;
 }
-.gt1,.gt2,.gt3,.gt4,.gt5,.gt6,.gt7,.gt8,.gt9,.gt10,.gt11,.gt12,.gt13,.gt14,.gt15,.gt16,.gt17,.gt18,.gt19,.gt20,.gt21,.gt22,.gt23,.gt24,.gt25{
+.gt1,.gt2,.gt3,.gt4,.gt5,.gt6,.gt7,.gt8,.gt9,.gt10,.gt11,.gt12,.gt13,.gt14,.gt15,.gt16,.gt17,.gt18,.gt19,.gt20,.gt21,.gt22,.gt23,.gt24,.gt25,.gt26,.gt27,.gt28{
 	position: absolute;
     top: 45%;
     right: 10%;;
@@ -105,7 +105,7 @@
     transition: 0.3s;
 }
 
-.lt1,.lt2,.lt3,.lt4,.lt5,.lt6,.lt7,.lt8,.lt9,.lt10,.lt11,.lt12,.lt13,.lt14,.lt15,.lt16,.lt17,.lt18,.lt19,.lt20,.lt21,.lt22,.lt23,.lt24,.lt25{
+.lt1,.lt2,.lt3,.lt4,.lt5,.lt6,.lt7,.lt8,.lt9,.lt10,.lt11,.lt12,.lt13,.lt14,.lt15,.lt16,.lt17,.lt18,.lt19,.lt20,.lt21,.lt22,.lt23,.lt24,.lt25,.lt26,.lt27,.lt28{
 	position: absolute;
     top: 45%;
     left: 10%;;
@@ -113,13 +113,13 @@
     font-size: 40px;
     transition: 0.3s;
 }
-.gt1:hover,.gt2:hover,.gt3:hover,.gt4:hover,.gt5:hover,.gt6:hover,.gt7:hover,.gt8:hover,.gt9:hover,.gt10:hover,.gt11:hover,.gt12:hover,.gt13:hover,.gt14:hover,.gt15:hover,.gt16:hover,.gt17:hover,.gt18:hover,.gt19:hover,.gt20:hover,.gt21:hover,.gt22:hover,.gt23:hover,.gt24:hover,.gt25:hover,.gt1:focus,.gt2:focus,.gt3:focus,.gt4:focus,.gt5:focus,.gt6:focus,.gt7:focus,.gt8:focus,.gt9:focus,.gt10:focus,.gt11:focus,.gt12:focus,.gt13:focus,.gt14:focus,.gt15:focus,.gt16:focus,.gt17:focus,.gt18:focus,.gt19:focus,.gt20:focus,.gt21:focus,.gt22:focus,.gt23:focus,.gt24:focus,.gt2:focus,.lt1:hover,.lt2:hover,.lt3:hover,.lt4:hover,.lt5:hover,.lt6:hover,.lt7:hover,.lt8:hover,.lt9:hover,.lt10:hover,.lt11:hover,.lt12:hover,.lt13:hover,.lt14:hover,.lt15:hover,.lt16:hover,.lt17:hover,.lt18:hover,.lt19:hover,.lt20:hover,.lt21:hover,.lt22:hover,.lt23:hover,.lt24:hover,.lt25:hover,.lt1:focus,.lt2:focus,.lt3:focus,.lt4:focus,.lt5:focus,.lt6:focus,.lt7:focus,.lt8:focus,.lt9:focus,.lt10:focus,.lt11:focus,.lt12:focus,.lt13:focus,.lt14:focus,.lt15:focus,.lt16:focus,.lt17:focus,.lt18:focus,.lt19:focus,.lt20:focus,.lt21:focus,.lt22:focus,.lt23:focus,.lt24:focus,.lt25:focus{
+.gt1:hover,.gt2:hover,.gt3:hover,.gt4:hover,.gt5:hover,.gt6:hover,.gt7:hover,.gt8:hover,.gt9:hover,.gt10:hover,.gt11:hover,.gt12:hover,.gt13:hover,.gt14:hover,.gt15:hover,.gt16:hover,.gt17:hover,.gt18:hover,.gt19:hover,.gt20:hover,.gt21:hover,.gt22:hover,.gt23:hover,.gt24:hover,.gt25:hover,.gt26:hover,.gt27:hover,.gt28:hover,.gt1:focus,.gt2:focus,.gt3:focus,.gt4:focus,.gt5:focus,.gt6:focus,.gt7:focus,.gt8:focus,.gt9:focus,.gt10:focus,.gt11:focus,.gt12:focus,.gt13:focus,.gt14:focus,.gt15:focus,.gt16:focus,.gt17:focus,.gt18:focus,.gt19:focus,.gt20:focus,.gt21:focus,.gt22:focus,.gt23:focus,.gt24:focus,.gt25:focus,.gt26:focus,.gt27:focus,.gt28:focus,.lt1:hover,.lt2:hover,.lt3:hover,.lt4:hover,.lt5:hover,.lt6:hover,.lt7:hover,.lt8:hover,.lt9:hover,.lt10:hover,.lt11:hover,.lt12:hover,.lt13:hover,.lt14:hover,.lt15:hover,.lt16:hover,.lt17:hover,.lt18:hover,.lt19:hover,.lt20:hover,.lt21:hover,.lt22:hover,.lt23:hover,.lt24:hover,.lt25:hover,.lt26:hover,.lt27:hover,.lt28:hover,.lt1:focus,.lt2:focus,.lt3:focus,.lt4:focus,.lt5:focus,.lt6:focus,.lt7:focus,.lt8:focus,.lt9:focus,.lt10:focus,.lt11:focus,.lt12:focus,.lt13:focus,.lt14:focus,.lt15:focus,.lt16:focus,.lt17:focus,.lt18:focus,.lt19:focus,.lt20:focus,.lt21:focus,.lt22:focus,.lt23:focus,.lt24:focus,.lt25:focus,.lt26:focus,.lt27:focus,.lt28:focus{
     color: #555;
     text-decoration: none;
     cursor: pointer;	
 }
 
-.close1:hover,.close1:focus,.close2:hover,.close2:focus,.close3:hover,.close3:focus,.close4:hover,.close4:focus,.close5:hover,.close5:focus,.close6:hover,.close6:focus,.close7:hover,.close7:focus,.close8:hover,.close8:focus,.close9:hover,.close9:focus,.close10:hover,.close10:focus,.close11:hover,.close11:focus,.close12:hover,.close12:focus,.close13:hover,.close13:focus,.close14:hover,.close14:focus,.close15:hover,.close15:focus,.close16:hover,.close16:focus,.close17:hover,.close17:focus,.close18:hover,.close18:focus,.close19:hover,.close19:focus,.close20:hover,.close20:focus,.close21:hover,.close21:focus,.close22:hover,.close22:focus,.close23:hover,.close23:focus,.close24:hover,.close24:focus,,.close25:hover,.close25:focus{
+.close1:hover,.close1:focus,.close2:hover,.close2:focus,.close3:hover,.close3:focus,.close4:hover,.close4:focus,.close5:hover,.close5:focus,.close6:hover,.close6:focus,.close7:hover,.close7:focus,.close8:hover,.close8:focus,.close9:hover,.close9:focus,.close10:hover,.close10:focus,.close11:hover,.close11:focus,.close12:hover,.close12:focus,.close13:hover,.close13:focus,.close14:hover,.close14:focus,.close15:hover,.close15:focus,.close16:hover,.close16:focus,.close17:hover,.close17:focus,.close18:hover,.close18:focus,.close19:hover,.close19:focus,.close20:hover,.close20:focus,.close21:hover,.close21:focus,.close22:hover,.close22:focus,.close23:hover,.close23:focus,.close24:hover,.close24:focus,.close25:hover,.close25:focus,.close26:focus,.close27:hover,.close28:focus{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
